@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #051D3B;
+    --cor1: #5081FB;
+    --cor2: #6BD1FF;
+    --cor3: #5081FB;
+    --cor4: 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: var(--cor0);
+    
+}
+
+header {
+    position: absolute;
+    width: 1376px;
+    height: 56px;
+    left: 32px;
+    top: 32px;  
+}
+
+a.logo-alura {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 4px;
+}
+
+a.logo-dev {
+    text-decoration: none;
+    background: white;
+    padding: 5px;
+    border-radius: 3px;
+    color: var(--cor0);
+}
