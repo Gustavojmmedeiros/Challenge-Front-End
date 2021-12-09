@@ -6,13 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Dev</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flexbox.css">
 </head>
 <body>
-    <header>
-        <section class="topo">
+    <header class="cabecalhoPrincipal">
+        <div class="container">
             <img src="logo-alura/Header/Logo.svg" alt="Logo Alura" class="logo-alura">
             <input type="text" class="input-busca" placeholder="Busque por algo">
-        </section>
+            <div class="perfil">
+                <img src="img/Photo.svg" class="foto-perfil" alt="Foto-perfil">
+                <p class="usuario">Usuário</p>
+            </div>
+        </div>
     </header>
+
+    <main>
+        <div class="menu">
+            <p class="menu-titulo">MENU</p>
+            <nav class="menu-nav">
+                <ul class="lista-menu">
+                    <li><a href="desktop.html" class="menu-codigo-nav">Editor de código</a></li>
+                    <li><a href="#" class="menu-comunidade-nav" >Comunidade</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="projeto-pessoal">
+            <p>SEU PROJETO</p>
+            <nav class="projeto-nav">
+                <input type="text" class="nome-projeto" placeholder="Nome do seu projeto">
+                <input type="text" class="descricao-projeto" placeholder="Descrição do seu projeto">
+            </nav>
+        </div>
+    </main>
+
+    
 </body>
 </html>
