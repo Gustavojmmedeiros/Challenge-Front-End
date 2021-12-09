@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    
+}
+
+.perfil .foto-perfil {
+    margin-right: 8px;
+}
+
+.projeto-pessoal p {
+    text-align: end;
+}
+
+.projeto-pessoal .projeto-nav {
+    display: grid;
+    justify-items: end;
+}
+
+
+
