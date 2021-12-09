@@ -39,9 +39,9 @@ header {
     width: 752px;
     height: 56px;
     background: var(--cor1);
+    text-decoration: none;
     border-radius: 5px;
     margin-left: 30px;
-    padding: 2px 14px;
+    padding: 1px 14px;
     font-size: 1.1em;
-    color: white;
 }
