@@ -3,21 +3,42 @@
     justify-content: space-between;
 }
 
+
 .perfil {
     display: flex;
     align-items: center;
-    
 }
+
 
 .perfil .foto-perfil {
     margin-right: 8px;
 }
 
+
+.link-menu-codigo {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.link-menu-comunidade {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.projeto-pessoal {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .projeto-pessoal p {
     text-align: end;
 }
 
-.projeto-pessoal .projeto-nav {
+
+.projeto-pessoal .projeto {
     display: grid;
     justify-items: end;
 }
