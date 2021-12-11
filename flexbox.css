@@ -27,6 +27,13 @@
 }
 
 
+form input {
+    display: block;
+}
+
+
+
+/*
 .projeto-pessoal {
     display: flex;
     flex-direction: column;
@@ -34,7 +41,7 @@
 
 
 .projeto-pessoal p {
-    text-align: end;
+    text-align: start;
 }
 
 
@@ -42,6 +49,6 @@
     display: grid;
     justify-items: end;
 }
-
+*/
 
 
