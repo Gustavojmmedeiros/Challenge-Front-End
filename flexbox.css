@@ -14,6 +14,12 @@
     margin-right: 8px;
 }
 
+.conteudo-principal {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    
+}
 
 .link-menu-codigo {
     display: inline-flex;

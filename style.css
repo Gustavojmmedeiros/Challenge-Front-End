@@ -41,7 +41,7 @@ header {
 
 
 .input-busca {
-    width: 752px;
+    width: 50%;
     height: 56px;
     background: var(--cor1);
     text-decoration: none;
@@ -50,6 +50,7 @@ header {
     margin-left: 30px;
     padding: 1px 14px;
     font-size: 1.1em;
+    justify-self: center;
 }
 
 
@@ -63,19 +64,21 @@ header {
 }
 
 
-main {
-    
+.conteudo-principal {
+    width: auto;
+    padding: 40px 32px;
 }
 
-
+/*
 main .menu {
-    margin-left: auto;
     padding-left: 32px;
     color: white;
 }
+*/
 
 .menu .menu-nav {
-    width: 290px;
+    width: 25%;
+    
 }
 
 
@@ -108,9 +111,9 @@ li {
 form {
     display: inline;
     float: right;
+    width: 25%;
     color: white;
     margin: 10px 0;
-    padding: 10px;
     text-align: left;
 }
 
