@@ -41,16 +41,16 @@ header {
 
 
 .input-busca {
-    width: 50%;
+    width: 724px;
     height: 56px;
     background: var(--cor1);
     text-decoration: none;
     border-radius: 8px;
     border-style: none;
-    margin-left: 30px;
     padding: 1px 14px;
     font-size: 1.1em;
-    justify-self: center;
+    position: relative;
+    right: 74px;
 }
 
 
@@ -69,16 +69,8 @@ header {
     padding: 40px 32px;
 }
 
-/*
-main .menu {
-    padding-left: 32px;
-    color: white;
-}
-*/
-
 .menu .menu-nav {
     width: 25%;
-    
 }
 
 
@@ -108,12 +100,42 @@ li {
     padding-right: 16px;
 }
 
+.conteiner-caixa-editora {
+    position: relative;
+    margin-right: 80px;
+}
+
+.fundo-caixa-editora {
+    margin: auto; 
+    background-color: var(--cor3);
+    width: 752px;
+    height: 336px;
+    border-radius: 10px;
+}
+
+#caixa-editora {
+    position: center;
+    margin: 32px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.botoes-caixa-editora {
+    position: relative;
+    left: 78px;
+    top: 25px;
+}
+
 form {
     display: inline;
     float: right;
+    position: relative;
+    left: 15px;
     width: 25%;
     color: white;
-    margin: 10px 0;
+    margin: auto 0;
     text-align: left;
 }
 
@@ -164,47 +186,3 @@ select {
 }
 
 
-
-
-/*
-.projeto-pessoal {
-    color: white;
-    font-family: 'Inter', sans-serif;
-    text-align: justify;
-    margin-right: 32px; 
-}
-
-
-.projeto-pessoal p {
-    letter-spacing: 0.3rem;
-}
-
-
-.projeto .nome-projeto {
-    width: 272px;
-    height: 56px;
-    margin: 16px 0;
-    background-color: var(--cor1);
-    border-radius: 8px;
-    border-style: none;
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 1px 14px;
-    font-size: 1em;
-    justify-self: self-start;
-}
-
-
-.projeto .descricao-projeto {
-    width: 272px;
-    height: 80px;
-    background-color: var(--cor1);
-    border-radius: 8px;
-    border-style: none;
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 1px 14px;
-    font-size: 1em;
-    justify-self: self-start;
-}
-*/

@@ -17,8 +17,11 @@
 .conteudo-principal {
     display: flex;
     align-items: top;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
+}
+
+menu {
+    width: 25%;
 }
 
 .link-menu-codigo {
@@ -32,34 +35,25 @@
     align-items: center;
 }
 
+.conteiner-caixa-editora {
+    width: 50%;
+}
 
-form {
-    
+.fundo-caixa-editora {
+    display: flex;   
+}
 
+.botoes-caixa-editora {
+    display: flex;   
+    justify-content: space-between;
+    width: 5%;
 }
 
 form input {
     display: block;
 }
 
-
-
-/*
-.projeto-pessoal {
-    display: flex;
-    flex-direction: column;
+.form-projeto {
+    width: 25%;
 }
-
-
-.projeto-pessoal p {
-    text-align: start;
-}
-
-
-.projeto-pessoal .projeto {
-    display: grid;
-    justify-items: end;
-}
-*/
-
 
