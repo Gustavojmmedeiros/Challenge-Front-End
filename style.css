@@ -4,8 +4,7 @@
     --cor0: #051D3B;
     --cor1: #2D415A;
     --cor2: #5081FB;
-    --cor3: #6BD1FF;
-    --cor4: 
+    --cor3: #6BD1FF; 
 }
 
 
@@ -100,7 +99,7 @@ li {
     padding-right: 16px;
 }
 
-.conteiner-caixa-editora {
+.container-caixa-editora {
     position: relative;
     margin-right: 80px;
 }
