@@ -11,7 +11,9 @@
 <body>
     <header class="cabecalhoPrincipal">
         <div class="container-cabecalho">
-            <img src="img/Logo.svg" alt="Logo Alura" class="logo-alura">
+            <nav class="botao-pagina-principal">
+                <img src="img/Logo.svg" alt="Logo Alura" class="logo-alura">
+            </nav>
             <input type="text" class="input-busca" placeholder="Busque por algo">
             <div class="perfil">
                 <img src="img/Photo.svg" class="foto-perfil" alt="Foto-perfil">
@@ -24,14 +26,14 @@
         <div class="menu">  
             <p>MENU</p>
             <nav class="menu-nav">
-                <ul>
-                    <li>
-                        <a href="desktop.html" class="link-menu-codigo">
+                <ul class="lista-menu">
+                    <li  class="links-menu">
+                        <a href="desktop.html" class="ancoras">
                             <img src="img/Icon-editor.svg" class="img-editor" alt="Ícone editor de código">Editor de código
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="link-menu-comunidade">
+                    <li class="links-menu">
+                        <a href="#" class="ancoras">
                             <img src="img/Icon-comunidade.svg" class="img-comunidade" alt="Ícone comunidade">Comunidade
                         </a>
                     </li>
@@ -52,23 +54,27 @@
                         <img src="img/bolinhas/botao-verde.svg" alt="Botão verde">
                     </li>
                 </ul>
-                <textarea id="caixa-editora" cols="80" rows="20"></textarea>
-            </section>
-        </div>
+                <textarea id="caixa-editora" cols="50" rows="15"></textarea>
+            </div>
+            <button classe="botao-highlight">Visualizar com o highlight</button>
+        </section>
+        
 
         <form class="dados-projeto">
             <p>Seu projeto</p>
             <input type="text" class="input-projeto" placeholder="Nome do seu projeto">
-            <textarea id="descricao" class="textarea-projeto" cols="30" rows="5" placeholder="Descrição do seu projeto"></textarea>
+            <textarea id="descricao-projeto" cols="30" rows="8" placeholder="Descrição do seu projeto"></textarea>
 
-            <legend>Personalização</legend>
+            <legend class="legenda">Personalização</legend>
 
-            <select>
+            <select class="linguagem">
                 <option value="JavaScript">JavaScript</option>
                 <option value="HTML">HTML</option>
                 <option value="CSS">CSS</option>
             </select>
-
+            <div>
+                <input type="color" class="cor-fundo">
+            </div>
             <input type="submit" class="input-submit" value="Salvar projeto">
         </form>
     </main>

@@ -1,59 +1,110 @@
-.container-cabecalho {
+/* header */
+.cabecalhoPrincipal .container-cabecalho {
     display: flex;
     justify-content: space-between;
-}
-
-
-.perfil {
-    display: flex;
     align-items: center;
+    padding: 16px;
 }
 
-
-.perfil .foto-perfil {
-    margin-right: 8px;
+.container-cabecalho .botao-pagina-principal {
+    width: 17.5%;
 }
 
+.container-cabecalho .input-busca {
+    width: 55%;
+}
+
+.container-cabecalho .perfil {
+    width: 27.5%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: flex-end;
+}
+
+/* main */
 .conteudo-principal {
     display: flex;
-    align-items: top;
-    justify-content: space-between;   
-}
-
-menu {
-    width: 25%;
-}
-
-.link-menu-codigo {
-    display: inline-flex;
-    align-items: center;
-}
-
-
-.link-menu-comunidade {
-    display: inline-flex;
-    align-items: center;
-}
-
-.container-caixa-editora {
-    width: 50%;
-}
-
-.fundo-caixa-editora {
-    display: flex;   
-}
-
-.botoes-caixa-editora {
-    display: flex;   
     justify-content: space-between;
-    width: 5%;
+    height: 500px;
 }
 
-form input {
-    display: block;
+/* container menu */
+.conteudo-principal .menu {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px;
+    flex-grow: 1;
 }
 
-.form-projeto {
+.menu p {
+    margin: 0;
+    flex-grow: 0;
+}
+
+.menu .menu-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 3;
+}
+
+
+.menu-nav .lista-menu  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 0;
+    height: 135px;
+}
+
+/* .lista-menu .links-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.links-menu .ancoras {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* container caixa editora */
+.conteudo-principal .container-caixa-editora {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.container-caixa-editora .fundo-caixa-editora {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-caixa-editora .botoes-caixa-editora {
+    display: flex;
+}
+
+#caixa-editora {
+    margin: 25px;
+}
+
+.botoes-caixa-editora .botao-highlight {
+    align-self: flex-end;
+}
+
+/* container dados projeto */
+.conteudo-principal .dados-projeto {
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
 }
- 

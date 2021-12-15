@@ -5,14 +5,8 @@
     --cor1: #2D415A;
     --cor2: #5081FB;
     --cor3: #6BD1FF; 
+    --cor4: #0B254A;
 }
-
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 
 body {
     background: var(--cor0);
@@ -21,167 +15,106 @@ body {
     letter-spacing: 0.05rem;
 }
 
+/* Header */
 
-header {
-    position: relative;
-    width: 1312px;
+.botao-pagina-principal .logo-alura {
+    width: 130px;
+    height: 60px;
+}
+
+.container-cabecalho .input-busca {
     height: 56px;
-    left: auto;
-    top: 32px;  
-    padding: 10px 10px 10px 32px;
-    margin: auto;
-    margin-bottom: 40px;
-}
-
-
-.logo-alura {
-    padding-top: 51.7xp;
-}
-
-
-.input-busca {
-    width: 724px;
-    height: 56px;
-    background: var(--cor1);
-    text-decoration: none;
-    border-radius: 8px;
-    border-style: none;
-    padding: 1px 14px;
-    font-size: 1.1em;
-    position: relative;
-    right: 74px;
-}
-
-
-.perfil {
-    margin-right: 32px;
-}
-
-
-.perfil .usuario {
-    color: white;
-}
-
-
-.conteudo-principal {
-    width: auto;
-    padding: 40px 32px;
-}
-
-.menu .menu-nav {
-    width: 25%;
-}
-
-
-li {
-    list-style: none;
-    padding: 10px 0px 6px 0px;
-}
-
-
-.link-menu-codigo {
-    text-decoration: none;
-    color: white;
-}
-
-
-.link-menu-codigo .img-editor {
-    padding-right: 16px;
-}
-
-
-.link-menu-comunidade {
-    text-decoration: none;
-    color: lightgrey;
-}
-
-.link-menu-comunidade .img-comunidade {
-    padding-right: 16px;
-}
-
-.container-caixa-editora {
-    position: relative;
-    margin-right: 80px;
-}
-
-.fundo-caixa-editora {
-    margin: auto; 
-    background-color: var(--cor3);
-    width: 752px;
-    height: 336px;
-    border-radius: 10px;
-}
-
-#caixa-editora {
-    position: center;
-    margin: 32px;
-    background-color: black;
-    border: none;
-    border-radius: 10px;
-    padding: 4px;
-}
-
-.botoes-caixa-editora {
-    position: relative;
-    left: 78px;
-    top: 25px;
-}
-
-form {
-    display: inline;
-    float: right;
-    position: relative;
-    left: 15px;
-    width: 25%;
-    color: white;
-    margin: auto 0;
-    text-align: left;
-}
-
-form p {
-    text-transform: uppercase;
-    letter-spacing: 0.09rem;
-}
-
-.input-projeto, select {
-    width: 65%;
-    margin: 16px 0;
-    padding: 16px 99px 16px 14px;
-    background: var(--cor1);
+    padding: 0 8px;
+    background-color: var(--cor1);
     border: none;
     border-radius: 8px;
 }
 
-.textarea-projeto {
-    margin-top: 0;
-    margin-bottom: 40px;
-    width: 65%;
-    padding: 16px 99px 16px 14px;
-    background: var(--cor1);
-    border: none;
-    border-radius: 8px;
+.perfil .foto-perfil {
+    width: 32px;
 }
 
-.input-projeto::placeholder, .textarea-projeto::placeholder {
-    color: white;
-    font-weight: lighter;
+
+/* Main */
+
+main {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     letter-spacing: 0.05rem;
 }
 
-select {
+main a {
     color: white;
-    width: 98%;
+    text-decoration: none;
+}
+p, legend {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 12px;
 }
 
-.input-submit {
-    width: 98%;
-    margin: 16px 0;
-    padding: 16px;
-    background: var(--cor3);
+li {
+    list-style-type: none;
+}
+
+.fundo-caixa-editora {
+    background-color: var(--cor3);
+    border-radius: 8px;
+}
+
+#caixa-editora {
+    background-color: black;
+    border-radius: 8px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05rem;
+    color: white;
+    height: 56px;
+    padding: 0 14px;
+    background-color: var(--cor4);
     border: none;
     border-radius: 8px;
-    text-align: center;
 }
 
+.dados-projeto .input-projeto {
+    height: 56px;
+    padding: 0 8px;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 8px;
+}
 
+#descricao-projeto {
+    padding: 5px 8px;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 8px;
+}
+
+.dados-projeto .linguagem {
+    height: 56px;
+    padding: 0 8px;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.dados-projeto .cor-fundo {
+    width: 100%;
+    height: 56px;
+    padding: 0 8px;
+    background-color: var(--cor0);
+    border-radius: 8px;
+    border-style: white;
+}
+
+.dados-projeto .input-submit {
+    height: 56px;
+    padding: 0 8px;
+    background-color: var(--cor2);
+    border: none;
+    border-radius: 8px;
+}
