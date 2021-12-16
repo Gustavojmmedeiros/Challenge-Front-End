@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #051D3B;
+    --cor1: #2D415A;
+    --cor2: #5081FB;
+    --cor3: #6BD1FF; 
+    --cor4: #5081FB14;
+    --cor5: #FFFFFF3D;  /* hover input de texto */
+    --cor6: #5081FB29;  /* hover botão azul escuro */
+    --cor7: #7BA4FC;    /* hover botão azul escuro */
+    --cor8: #FFFFFF14;  /* hover perfil */
+    --cor9: #5081FBA3;  /* hover botão menu azul escuro */
+}
+
+body {
+
+}
+/* header */
+
+.container-cabecalho .input-busca:hover {
+    background-color: var(--cor5);
+    transition: 1s;
+}
+
+.container-cabecalho .perfil:hover {
+    background-color: var(--cor8);
+    transition: 1s;
+}
+
+/* main */
+
+/* container menu */
+
+/* .lista-menu .links-menu:hover {
+    background-color: var(--cor9);
+    transition: 1s;
+} */
+
+/* container caixa editora */
+
+.container-caixa-editora .botao-highlight:hover {
+    background-color: var(--cor6);
+    transition: 1s;
+}
+
+/* container dados projeto */
+
+.dados-projeto .input-projeto:hover {
+    background-color: var(--cor5);
+    transition: 1s;
+}
+
+.dados-projeto #descricao-projeto:hover {
+    background-color: var(--cor5);
+    transition: 1s;
+}
+
+.dados-projeto .linguagem:hover {
+    background-color: var(--cor5);
+    transition: 1s;
+}
+
+.dados-projeto .cor-fundo:hover {
+    background-color: var(--cor6);
+    transition: 1s;
+}
+
+.dados-projeto .input-submit:hover {
+    background-color: var(--cor7);
+    transition: 1s;
+}

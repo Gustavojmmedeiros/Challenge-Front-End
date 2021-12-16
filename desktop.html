@@ -7,6 +7,7 @@
     <title>Alura Dev</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="flexbox.css">
+    <link rel="stylesheet" href="microinteracoes.css">
 </head>
 <body>
     <header class="cabecalhoPrincipal">
@@ -15,9 +16,11 @@
                 <img src="img/Logo.svg" alt="Logo Alura" class="logo-alura">
             </nav>
             <input type="text" class="input-busca" placeholder="Busque por algo">
-            <div class="perfil">
-                <img src="img/Photo.svg" class="foto-perfil" alt="Foto-perfil">
-                <p class="usuario">Usuário</p>
+            <div class="container-perfil">
+                <div class="perfil">
+                    <img src="img/Photo.svg" class="foto-perfil" alt="Foto-perfil">
+                    <p class="usuario">Usuário</p>
+                </div>
             </div>
         </div>
     </header>
@@ -27,12 +30,14 @@
             <p>MENU</p>
             <nav class="menu-nav">
                 <ul class="lista-menu">
-                    <li  class="links-menu">
+                    <li class="links-menu">
                         <a href="desktop.html" class="ancoras">
-                            <img src="img/Icon-editor.svg" class="img-editor" alt="Ícone editor de código">Editor de código
+                            <div>
+                                <img src="img/Vector.svg" class="img-editor" alt="Ícone editor de código">Editor de código
+                            </div>
                         </a>
                     </li>
-                    <li class="links-menu">
+                    <li class="link-comunidade">
                         <a href="#" class="ancoras">
                             <img src="img/Icon-comunidade.svg" class="img-comunidade" alt="Ícone comunidade">Comunidade
                         </a>
@@ -56,7 +61,7 @@
                 </ul>
                 <textarea id="caixa-editora" cols="50" rows="15"></textarea>
             </div>
-            <button classe="botao-highlight">Visualizar com o highlight</button>
+            <input type="button" class="botao-highlight" value="Visualizar com o highlight">
         </section>
         
 
