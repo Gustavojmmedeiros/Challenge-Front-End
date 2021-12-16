@@ -68,23 +68,12 @@
     height: 135px;
 }
 
-/* .lista-menu .links-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-.link-menu .ancoras {
+.ancoras .itens-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.link-comunidade .ancoras {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 /* container caixa editora */
 .conteudo-principal .container-caixa-editora {

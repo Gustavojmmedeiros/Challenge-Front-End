@@ -6,6 +6,11 @@
     --cor2: #5081FB;
     --cor3: #6BD1FF; 
     --cor4: #5081FB14;
+    --cor5: #FFFFFF3D;  /* hover input de texto */
+    --cor6: #5081FB29;  /* hover botão azul escuro */
+    --cor7: #7BA4FC;    /* hover botão azul escuro */
+    --cor8: #FFFFFF14;  /* hover perfil */
+    --cor9: #5081FBA3;  /* hover botão menu azul escuro */
 }
 
 body {
@@ -64,10 +69,18 @@ li {
 
 .ancoras .img-editor {
     box-sizing: border-box;
-    border-radius: 8px;
-    width: 36px;
-    height: 36px;
+    border-radius: 14px;
+    width: 48px;
+    height: 48px;
     background-color: var(--cor3);
+}
+
+.ancoras .img-comunidade {
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 48px;
+    height: 48px;
+    background-color: var(--cor6);
 }
 
 .fundo-caixa-editora {

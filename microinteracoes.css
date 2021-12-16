@@ -11,6 +11,7 @@
     --cor7: #7BA4FC;    /* hover botão azul escuro */
     --cor8: #FFFFFF14;  /* hover perfil */
     --cor9: #5081FBA3;  /* hover botão menu azul escuro */
+    --cor10: #96B9FD;   /* focus */
 }
 
 body {
@@ -37,11 +38,17 @@ body {
     transition: 1s;
 } */
 
+
+
 /* container caixa editora */
 
 .container-caixa-editora .botao-highlight:hover {
     background-color: var(--cor6);
     transition: 1s;
+}
+
+.container-caixa-editora .botao-highlight:focus {
+    background-color: var(--cor3);
 }
 
 /* container dados projeto */
