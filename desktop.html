@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Dev</title>
+    <link rel="stylesheet" href="solarized.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="flexbox.css">
     <link rel="stylesheet" href="microinteracoes.css">
@@ -61,7 +62,9 @@
                         <img src="img/bolinhas/botao-verde.svg" alt="Botão verde">
                     </li>
                 </ul>
-                <textarea id="caixa-editora" cols="50" rows="15"></textarea>
+                <div class="codigo-wrapper">
+                    <code class="preview hljs" contenteditable="true" aria-label="Editor de código">function teste() {}</code>
+                </div>
             </div>
             <input type="button" class="botao-highlight" value="Visualizar com o highlight">
         </section>
@@ -85,6 +88,7 @@
             <input type="submit" class="input-submit" value="Salvar projeto">
         </form>
     </main>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
