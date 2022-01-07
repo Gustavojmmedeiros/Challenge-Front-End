@@ -87,6 +87,7 @@
 .container-caixa-editora .fundo-caixa-editora {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .container-caixa-editora .botoes-caixa-editora {

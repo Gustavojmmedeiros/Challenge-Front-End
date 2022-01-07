@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
     --cor0: #051D3B;
@@ -87,23 +88,31 @@ li {
 }
 
 .fundo-caixa-editora {
+    width: 100%;
+    height: 400px;
     background-color: var(--cor3);
     border-radius: 8px;
 }
 
 .fundo-caixa-editora .codigo-wrapper {
     background-color: black;
-    width: 100%;
-    max-width: 700px;
-    height: 300px;
-    margin-left: 16px;
-    margin-right: 16px;
+    height: 90%;
+    width: 94%;
     border-radius: 8px;
 }
 
 .codigo-wrapper .preview {
-    height: 300px;
-    white-space: pre-wrap;
+    display: block;
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    height: 100%;
+    padding: 52px 10px 0px 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .container-caixa-editora .botao-highlight {

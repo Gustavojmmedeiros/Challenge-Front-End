@@ -12,3 +12,16 @@ function aplicaHighlight() {
 botao.addEventListener('click', () => {
     aplicaHighlight()
 })
+
+
+function mudaCor() {
+    const corEditor = document.querySelector('.fundo-caixa-editora')
+    const botaoCor = document.querySelector('.cor-fundo')
+
+    botaoCor.addEventListener('input', () => {
+        corEditor.style.backgroundColor = botaoCor.value;
+
+    })
+}
+
+mudaCor()

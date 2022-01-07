@@ -51,19 +51,20 @@
 
         <section class="container-caixa-editora">
             <div class="fundo-caixa-editora">
-                <ul class="botoes-caixa-editora">
-                    <li>
-                        <img src="img/bolinhas/botao-vermelha.svg" alt="Botão vermelho">
-                    </li>
-                    <li>
-                        <img src="img/bolinhas/botao-amarela.svg" alt="Botão amarelo">
-                    </li>
-                    <li>
-                        <img src="img/bolinhas/botao-verde.svg" alt="Botão verde">
-                    </li>
-                </ul>
                 <div class="codigo-wrapper">
-                    <code class="preview hljs" contenteditable="true" aria-label="Editor de código">function teste() {}</code>
+                    <code class="preview hljs" contenteditable="true" aria-label="Editor de código">
+                        const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+                        const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+
+                        const unfold = (f, seed) => {
+                        const go = (f, seed, acc) => {
+                            const res = f(seed)
+                            return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                        }
+                        return go(f, seed, [])
+                        }
+                    </code>
                 </div>
             </div>
             <input type="button" class="botao-highlight" value="Visualizar com o highlight">
@@ -81,6 +82,7 @@
                 <option value="JavaScript">JavaScript</option>
                 <option value="HTML">HTML</option>
                 <option value="CSS">CSS</option>
+                <option value="Python">Python</option>
             </select>
             <div>
                 <input type="color" class="cor-fundo">

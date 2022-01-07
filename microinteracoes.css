@@ -42,6 +42,13 @@ body {
 
 /* container caixa editora */
 
+.fundo-caixa-editora::before {
+    content: url(img/botoes-mac.svg);
+    position: relative;
+    top: 25px;
+    right: 300px;
+}
+
 .container-caixa-editora .botao-highlight:hover {
     background-color: var(--cor6);
     transition: 1s;
