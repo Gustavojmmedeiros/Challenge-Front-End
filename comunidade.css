@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    --cor0: #051D3B;
+    --cor1: #2D415A;
+    --cor2: #5081FB;
+    --cor3: #6BD1FF; 
+    --cor4: #5081FB14;
+    --cor5: #FFFFFF3D;  /* hover input de texto */
+    --cor6: #5081FB29;  /* hover botão azul escuro */
+    --cor7: #7BA4FC;    /* hover botão azul escuro */
+    --cor8: #FFFFFF14;  /* hover perfil */
+    --cor9: #5081FBA3;  /* hover botão menu azul escuro */
+}
+
+body {
+    background: var(--cor0);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+
+/* Header */
+
+.botao-pagina-principal .logo-alura {
+    width: 130px;
+    height: 60px;
+}
+
+.container-cabecalho .input-busca {
+    font-family: 'Inter', sans-serif;
+    height: 56px;
+    padding: 0 8px;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 8px;
+}
+
+.container-cabecalho .perfil {
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+    
+
+.perfil .foto-perfil {
+    width: 32px;
+}
+
+/* Main */
+
+main {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+}
+p, legend {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 12px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.ancoras .img-editor {
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 48px;
+    height: 48px;
+    background-color: var(--cor3);
+}
+
+.ancoras .img-comunidade {
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 48px;
+    height: 48px;
+    background-color: var(--cor6);
+}
+
+.fundo-caixa-editora {
+    width: 100%;
+    height: 400px;
+    background-color: var(--cor3);
+    border-radius: 8px;
+}
+
+.fundo-caixa-editora .codigo-wrapper {
+    background-color: black;
+    height: 90%;
+    width: 94%;
+    border-radius: 8px;
+}
+
+.codigo-wrapper .preview {
+    display: block;
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    height: 100%;
+    padding: 52px 10px 0px 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.container-caixa-editora .botao-highlight {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.05rem;
+    color: white;
+    height: 56px;
+    padding: 0 14px;
+    background-color: var(--cor4);
+    border: none;
+    border-radius: 8px;
+}
+
+.dados-projeto .input-projeto {
+    font-family: 'Inter', sans-serif;
+    height: 56px;
+    padding: 0 8px;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 8px;
+}
+
+#descricao-projeto {
+    font-family: 'Inter', sans-serif;
+    padding: 8px;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 8px;
+}
+
+.dados-projeto .linguagem {
+    font-family: 'Inter', sans-serif;
+    height: 56px;
+    padding: 0 8px;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.dados-projeto .cor-fundo {
+    width: 100%;
+    height: 56px;
+    padding: 0 8px;
+    background-color: var(--cor0);
+    border-radius: 8px;
+    border-style: white;
+}
+
+.dados-projeto .input-submit {
+    font-family: 'Inter', sans-serif;
+    height: 56px;
+    padding: 0 8px;
+    background-color: var(--cor2);
+    border: none;
+    border-radius: 8px;
+}

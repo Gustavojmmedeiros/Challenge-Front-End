@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade</title>
+    <link rel="stylesheet" href="solarized.css">
+    <link rel="stylesheet" href="comunidade.css">
+    <link rel="stylesheet" href="flexbox-comunidade.css">
+    <link rel="stylesheet" href="microinteracoes.css">
+</head>
+<body>
+    <header class="cabecalhoPrincipal">
+        <div class="container-cabecalho">
+            <nav class="botao-pagina-principal">
+                <img src="img/Logo.svg" alt="Logo Alura" class="logo-alura">
+            </nav>
+            <input type="text" class="input-busca" placeholder="Busque por algo">
+            <div class="container-perfil">
+                <div class="perfil">
+                    <img src="img/Photo.svg" class="foto-perfil" alt="Foto-perfil">
+                    <p class="usuario">Usuário</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        <div class="menu">  
+            <p>MENU</p>
+            <nav class="menu-nav">
+                <ul class="lista-menu">
+                    <li class="itens-lista">
+                        <a href="desktop.html" class="ancoras">
+                            <div class="itens-menu">
+                                <img src="img/Vector-menu.svg" class="img-editor" alt="Ícone editor de código">Editor de código
+                            </div>
+                        </a>
+                    </li>
+                    <li class="itens-lista">
+                        <a href="#" class="ancoras">
+                            <div class="itens-menu">
+                                <img src="img/Vector-comunidade.svg" class="img-comunidade" alt="Ícone comunidade">Comunidade
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div>
+            <section class="container-caixa-editora">
+                <div class="fundo-caixa-editora">
+                    <div class="codigo-wrapper">
+                        <code class="preview hljs" contenteditable="true" aria-label="Editor de código">
+                            const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+                            const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+                            const unfold = (f, seed) => {
+                            const go = (f, seed, acc) => {
+                                const res = f(seed)
+                                return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                            }
+                            return go(f, seed, [])
+                            }
+                        </code>
+                    </div>
+                </div>
+            </section>
+            <section class="container-caixa-editora">
+                <div class="fundo-caixa-editora">
+                    <div class="codigo-wrapper">
+                        <code class="preview hljs" contenteditable="true" aria-label="Editor de código">
+                            const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+                            const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+                            const unfold = (f, seed) => {
+                            const go = (f, seed, acc) => {
+                                const res = f(seed)
+                                return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                            }
+                            return go(f, seed, [])
+                            }
+                        </code>
+                    </div>
+                </div>
+            </section>
+            <section class="container-caixa-editora">
+                <div class="fundo-caixa-editora">
+                    <div class="codigo-wrapper">
+                        <code class="preview hljs" contenteditable="true" aria-label="Editor de código">
+                            const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+                            const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+                            const unfold = (f, seed) => {
+                            const go = (f, seed, acc) => {
+                                const res = f(seed)
+                                return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                            }
+                            return go(f, seed, [])
+                            }
+                        </code>
+                    </div>
+                </div>
+            </section>
+            <section class="container-caixa-editora">
+                <div class="fundo-caixa-editora">
+                    <div class="codigo-wrapper">
+                        <code class="preview hljs" contenteditable="true" aria-label="Editor de código">
+                            const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+                            const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+                            const unfold = (f, seed) => {
+                            const go = (f, seed, acc) => {
+                                const res = f(seed)
+                                return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                            }
+                            return go(f, seed, [])
+                            }
+                        </code>
+                    </div>
+                </div>
+            </section>
+        </div>
+</body>
+</html>
