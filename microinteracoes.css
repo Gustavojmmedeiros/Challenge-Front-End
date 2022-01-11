@@ -31,22 +31,13 @@ body {
 
 /* main */
 
-/* container menu */
-
-/* .lista-menu .links-menu:hover {
-    background-color: var(--cor9);
-    transition: 1s;
-} */
-
-
-
 /* container caixa editora */
 
 .fundo-caixa-editora::before {
     content: url(img/botoes-mac.svg);
     position: relative;
     top: 25px;
-    right: 300px;
+    right: 200px;
 }
 
 .container-caixa-editora .botao-highlight:hover {
